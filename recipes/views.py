@@ -7,10 +7,5 @@ def home(request):
         'name': 'Daniel Neves',
     })
 
-def contato(request):
-    return render(request, 'me-apague/temp.html')
-
-def sobre(request):
-    return HttpResponse('Sobre')
 
 # Create your views here.
